@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  
+}
+.container{ 
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    min-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+   
+}
+.container .left{
+    position: relative;
+    background-color: rgb(0, 22, 146);
+    padding: 40px;
+}
+.container .right{
+    position: relative;
+    background-color: white;
+    padding: 40px;
+}
+.profileimg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+   
+   
+}
+.contact{
+    padding: 40px;
+    color: white;
+}
+.title{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.contact ul{
+    padding: 10px;
+    font-size: 20px;
+}
+.softskill ul{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.softskill{
+    padding: 40px;
+    color: white;
+}
+.eduction{
+    padding: 40px;
+    color: white;
+}
+.education p{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.language{
+    padding: 40px;
+    color: white;
+}
+.language li{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.name{
+    font-size: 50px;
+    padding: 85px;
+}
+.title2{
+    color:  rgb(0, 22, 146);
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.profile p{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.experience li{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}.pskills ul{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
