@@ -1,0 +1,30 @@
+.name{
+    color: white;
+    font-size: 120px;
+    margin-top: 80px;
+    font-weight: 20px;
+
+}
+.contact{
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.main{
+    background-color: rgba(9, 221, 254, 0.7);
+    padding: 20px;
+    margin: 34px;
+ flex-direction: column;
+ display: flex;
+align-items: flex-end;
+}
+#bod{
+ margin: 34px;
+}
+h2{
+    color: blue;
+}
+b{
+    color: rgb(75, 2, 121);
+}
